@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED33519E1BD596610063A7D1 /* UpsideDownSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED33519D1BD596610063A7D1 /* UpsideDownSupport.swift */; };
 		EDB50E941BD56BF100ED4B28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB50E931BD56BF100ED4B28 /* AppDelegate.swift */; };
 		EDB50E961BD56BF100ED4B28 /* MassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB50E951BD56BF100ED4B28 /* MassViewController.swift */; };
 		EDB50E981BD56BF100ED4B28 /* TemperatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB50E971BD56BF100ED4B28 /* TemperatureViewController.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED33519D1BD596610063A7D1 /* UpsideDownSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpsideDownSupport.swift; sourceTree = "<group>"; };
 		EDB50E8E1BD56BF100ED4B28 /* Assignment2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB50E921BD56BF100ED4B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDB50E931BD56BF100ED4B28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				EDB50EB51BD56D5200ED4B28 /* LengthViewController.swift */,
 				EDB50E991BD56BF100ED4B28 /* Main.storyboard */,
 				EDB50EB71BD5770C00ED4B28 /* StringEx.swift */,
+				ED33519D1BD596610063A7D1 /* UpsideDownSupport.swift */,
 				EDB50E9C1BD56BF100ED4B28 /* Images.xcassets */,
 				EDB50E9E1BD56BF100ED4B28 /* LaunchScreen.xib */,
 				EDB50E911BD56BF100ED4B28 /* Supporting Files */,
@@ -226,6 +229,7 @@
 				EDB50EB61BD56D5200ED4B28 /* LengthViewController.swift in Sources */,
 				EDB50EB81BD5770C00ED4B28 /* StringEx.swift in Sources */,
 				EDB50E961BD56BF100ED4B28 /* MassViewController.swift in Sources */,
+				ED33519E1BD596610063A7D1 /* UpsideDownSupport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +427,7 @@
 				EDB50EB11BD56BF100ED4B28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDB50EB21BD56BF100ED4B28 /* Build configuration list for PBXNativeTarget "Assignment2Tests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +436,7 @@
 				EDB50EB41BD56BF100ED4B28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

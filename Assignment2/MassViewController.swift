@@ -9,6 +9,8 @@
 import UIKit
 
 class MassViewController: UIViewController {
+    
+    // Outlets
 
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     @IBOutlet weak var massLbsLabel: UILabel!
@@ -16,27 +18,29 @@ class MassViewController: UIViewController {
     @IBOutlet weak var inputTextField: UITextField!
     @IBOutlet weak var displayLabel: UILabel!
     
+    // Convert button
+    
     @IBAction func convertButton(sender: AnyObject) {
         
-        if var number = inputTextField.text.toDouble() {
+        if var mass = inputTextField.text.toDouble() {
             var numberformatter = NSNumberFormatter()
             numberformatter.numberStyle = NSNumberFormatterStyle.DecimalStyle
         
             if segmentedControl.selectedSegmentIndex == 0 {
-                var pounds = (inputTextField.text as NSString).doubleValue
-                var kilos = pounds/2.2046
-                displayLabel.text = kilos.description
+                mass = mass/2.2046
             
             } else if segmentedControl.selectedSegmentIndex == 1 {
-                var kilos = (inputTextField.text as NSString).doubleValue
-                var pounds = kilos * 2.2046
-                displayLabel.text = pounds.description
+                mass = mass * 2.2046
             }
+            
+            displayLabel.text = numberformatter.stringFromNumber(mass)
         } else {
             let alert = UIAlertView(title: "Error", message: "Please enter a number", delegate: nil, cancelButtonTitle: "OK")
             alert.show()
         }
     }
+    
+    // Segment control changed
     
     @IBAction func indexChanged(sender: AnyObject) {
         switch segmentedControl.selectedSegmentIndex
@@ -54,11 +58,15 @@ class MassViewController: UIViewController {
         }
     }
     
+    // Clear button
+    
     @IBAction func clearButton(sender: AnyObject) {
         
         inputTextField.text = ""
         displayLabel.text = ""
     }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

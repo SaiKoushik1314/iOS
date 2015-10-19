@@ -1,6 +1,5 @@
 //
 //  StringEx.swift
-//  TabApp
 //
 //  Created by Sai Koushik Chituluri on 10/16/15.
 //  Copyright (c) 2015 Sai Koushik Chituluri. All rights reserved.
