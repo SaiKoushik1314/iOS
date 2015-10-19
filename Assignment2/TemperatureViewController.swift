@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  TemperatureViewController.swift
 //  Assignment2
 //
 //  Created by Priyanka Zaveri on 10/19/15.
@@ -8,8 +8,13 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class TemperatureViewController: UIViewController {
 
+
+    @IBOutlet weak var temperatureSegment: UISegmentedControl!
+    @IBAction func tempIndexChanged(sender: AnyObject) {
+    }
+    @IBOutlet weak var temperaturePickerView: UIPickerView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
