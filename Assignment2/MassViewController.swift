@@ -66,6 +66,18 @@ class MassViewController: UIViewController {
         displayLabel.text = ""
     }
     
+    // Code to dismiss the keyboard
+
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent){
+        view.endEditing(true)
+        super.touchesBegan(touches, withEvent: event)
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
