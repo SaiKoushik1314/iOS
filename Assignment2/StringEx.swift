@@ -1,12 +1,8 @@
 //
 //  StringEx.swift
 //
-//  Created by Sai Koushik Chituluri on 10/16/15.
-//  Copyright (c) 2015 Sai Koushik Chituluri. All rights reserved.
-//
-//
-//  StringEx.swift
-//  StringEx
+//  Priyanka Zaveri - Z1722111
+//  Sai Koushik Chituluri  - Z1745655
 //
 //  Copyright (c) 2014 Stanislav Artemkin <artemkin@gmail.com>. All rights reserved.
 //

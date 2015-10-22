@@ -2,8 +2,8 @@
 //  UpsideDownSupport.swift
 //  Assignment2
 //
-//  Created by Priyanka Zaveri on 10/19/15.
-//  Copyright (c) 2015 Priyanka Zaveri. All rights reserved.
+//  Priyanka Zaveri - Z1722111
+//  Sai Koushik Chituluri  - Z1745655
 //
 
 import UIKit
